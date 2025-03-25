@@ -18,5 +18,7 @@ public class Vinyl extends MusicPlayer{
 
     //overriden toString method
     @Override
-    public String toString(){}
+    public String toString(){
+        return super.getSongTitle() + " by " + super.getSongTitle() + " on "  + streamingService + " for " + super.getPrice();
+    }
 }
