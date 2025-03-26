@@ -17,7 +17,7 @@ public class MusicPlayerTester
             System.out.println("Let's go shopping for music!");
             String italic = "\u001B[3m";
             String reset = "\u001B[0m";
-            System.out.println(italic + "If you'd see your result, enter -1" + reset);
+            System.out.println(italic + "If you'd like to see your result, enter -1" + reset);
             System.out.println("Please enter the song title or enter -1 to exit: ");
             String songTitle = input.nextLine();
 
@@ -147,7 +147,7 @@ public class MusicPlayerTester
                     System.out.println("Please enter the monthly price of the streaming service: ");
                     double monthlyPrice = input.nextDouble();
 
-                    MusicPlayer streamingPrefered = new StreamingService (songTitle, artistName, monthlyPrice, streamingService);
+                    MusicPlayer streamingPrefered = new StreamingService (songTitle, artistName, monthlyPrice, streamingServiceName);
                     usersMusic.add(streamingPrefered);
                 }
                 else
@@ -164,7 +164,6 @@ public class MusicPlayerTester
         }
         printSummary(usersMusic);
         input.close();
-
     }
 
     /**
