@@ -5,7 +5,7 @@ public class MusicPlayer
     private double price;
 
     //superclass constructor
-    public MusicPlayer (String songTitle, String artistName, int price)
+    public MusicPlayer (String songTitle, String artistName, double price)
     {
         this.songTitle = songTitle;
         this.artistName = artistName;
@@ -23,7 +23,7 @@ public class MusicPlayer
         return artistName;
     }
 
-    public String getPrice ()
+    public double getPrice ()
     {
         return price;
     }

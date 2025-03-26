@@ -1,25 +1,24 @@
 public class Cassette extends MusicPlayer{
-    private String hasCassttePlayer;
+    private String hasCassettePlayer;
 
     public Cassette(String songTitle, String artistName, double price, String hasCassettePlayer){
         super(songTitle, artistName, price);
-        this.hasCassttePlayer = hasCassettePlayer;
+        this.hasCassettePlayer = hasCassettePlayer;
     }
 
     //getter
     public String getHasCassettePlayer(){
-        return hasCassttePlayer;
+        return hasCassettePlayer;
     }
 
     //setter
     public void setHasCassettePlayer(String hasCassettePlayer){
-        this.hasCassttePlayer = hasCassettePlayer;
+        this.hasCassettePlayer = hasCassettePlayer;
     }
 
     //override toString method
-
     @Override
     public String toString() {
-        return
+        return super.getSongTitle() + " by " + getArtistName() + " for $" + getPrice() + " on cassette!";
     }
 }
