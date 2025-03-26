@@ -1,3 +1,6 @@
+/**
+ * Represents a physical way to listen to music -- Cassettes
+ */
 public class Cassette extends MusicPlayer{
     private String hasCassettePlayer;
 

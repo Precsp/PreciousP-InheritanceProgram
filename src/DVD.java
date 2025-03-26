@@ -1,3 +1,6 @@
+/**
+ * Represents a physical way to listen to music--DVD's
+ */
 public class DVD extends MusicPlayer{
     private String hasDvdPlayer;
 

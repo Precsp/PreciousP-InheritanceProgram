@@ -1,3 +1,6 @@
+/**
+ * Represents a physical way to listen to music -- vinyl records
+ */
 public class Vinyl extends MusicPlayer
 {
     private String hasRecordPlayer;

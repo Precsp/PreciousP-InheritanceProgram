@@ -1,10 +1,18 @@
+/**
+ * Represents a general player with the song title, artist's name, and price of the song/album
+ */
 public class MusicPlayer
 {
     private String songTitle;
     private String artistName;
     private double price;
 
-    //superclass constructor
+    /**
+     * Constructs MusicPlayer object with specific title, artist's name, and price
+     * @param songTitle the title of the song
+     * @param artistName the name of the artist
+     * @param price the price of the song/album
+     */
     public MusicPlayer (String songTitle, String artistName, double price)
     {
         this.songTitle = songTitle;
@@ -43,7 +51,10 @@ public class MusicPlayer
         this.price = price;
     }
 
-    //toString method
+    /**
+     * returns string representing musicplayer object
+     * @return a string containing the song title, artist name, and price
+     */
     public String toString()
     {
         return songTitle + " by " + artistName + ", $ " + price;

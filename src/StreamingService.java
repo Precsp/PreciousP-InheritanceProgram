@@ -1,3 +1,6 @@
+/**
+ * represents a digital way to listen to music--streaming services
+ */
 public class StreamingService extends MusicPlayer{
     private String streamingService;
 
